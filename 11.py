@@ -1,0 +1,8 @@
+N=input("What is your name?")
+print("Welcome", N)
+A=input("enter a number: ")
+A=int(A)
+B=input("enter a second number:" )
+B=int(B)
+print("Add:", A+B, "Subtract:", A-B, "Multiply:", A*B)
+print("Cannot divide by 0")if B==0 else print("Divide:", A/B, "r",A%B)
